@@ -11,7 +11,7 @@ Some Api from App Store
 ##### Review
 
 ```javascript
-const AppStore = require('../index')
+const AppStore = require('app_store')
 const co = require('co')
 const countries = require('../resources/countries')
 
