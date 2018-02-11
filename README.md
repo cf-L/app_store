@@ -37,13 +37,13 @@ AppStore.hint.fetch(frontId, keyword)
 
 
 
-#####lookup
+##### lookup
 
 ```javascript
 AppStore.lookup.fetch(countryCode, appIds)
 ```
 
- 
+
 
 ##### rating
 
