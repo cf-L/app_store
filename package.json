@@ -1,0 +1,25 @@
+{
+  "name": "app_store",
+  "version": "1.0.0",
+  "description": "Some api from app store",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cf-L/app_store.git"
+  },
+  "keywords": [
+    "app store",
+    "node",
+    "crawler"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "co": "^4.6.0",
+    "superagent": "^3.8.2",
+    "underscore": "^1.8.3"
+  }
+}
