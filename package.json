@@ -15,7 +15,7 @@
     "node",
     "crawler"
   ],
-  "author": "",
+  "author": "Changfeng Lin",
   "license": "MIT",
   "dependencies": {
     "co": "^4.6.0",
