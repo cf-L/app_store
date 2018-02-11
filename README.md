@@ -9,6 +9,14 @@ Some Api from App Store
 
 
 
+### Installation
+
+```shell
+$ npm install app_store_crawler --save
+```
+
+
+
 ### Demo
 
 ##### Review
