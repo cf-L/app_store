@@ -84,7 +84,7 @@ AppStore.search.fetch(frontId, keyword)
 
 ##### top chart
 
-```java
+```javascript
 AppStore.topChart.fetch(type, genreCode, countryCode)
 ```
 
