@@ -1,7 +1,8 @@
 # App Store Api
 
 [![npm version](https://img.shields.io/npm/v/app_store_crawler.svg?style=flat-square)](https://www.npmjs.com/package/app_store_crawler)
-[![build status](https://img.shields.io/travis/app_store_crawler/app_store_crawler.svg?style=flat-square)](https://travis-ci.org/app_store_crawler/app_store_crawler)
+
+[![Build Status](https://travis-ci.org/cf-L/app_store.svg?branch=master)](https://travis-ci.org/cf-L/app_store)
 
 ### Description
 
