@@ -98,5 +98,10 @@ AppStore.topChart.fetch(type, genreCode, countryCode)
 AppStore.trends.fetch(frontId)
 ```
 
+#### subtitle
+
+```javascript
+AppStore.subtitle.fetch(countryCode, appId)
+```
 
 
