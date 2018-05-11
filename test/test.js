@@ -44,7 +44,7 @@ const trends = async() => {
 }
 
 const subtitle = async() => {
-  console.log(await AppStore.subtitle.fetch('CN', '892312330'))
+  console.log(await AppStore.subtitle.fetch('NO', '1253802769'))
 }
 
 co(function*() {
