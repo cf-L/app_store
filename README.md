@@ -32,7 +32,7 @@ const review = async() => {
 }
 
 co(function*() {
-  yield trends()
+  yield review()
 })
 ```
 
