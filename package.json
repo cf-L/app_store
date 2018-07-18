@@ -1,6 +1,6 @@
 {
   "name": "app_store_crawler",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Some api from app store",
   "main": "index.js",
   "scripts": {
