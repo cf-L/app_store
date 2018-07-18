@@ -104,4 +104,10 @@ AppStore.trends.fetch(frontId)
 AppStore.subtitle.fetch(countryCode, appId)
 ```
 
+#### app version hisotry
+
+```javascript
+AppStore.version.fetch(appId, frontId)
+```
+
 
