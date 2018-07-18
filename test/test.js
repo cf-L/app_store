@@ -47,6 +47,10 @@ const subtitle = async() => {
   console.log(await AppStore.subtitle.fetch('NO', '1253802769'))
 }
 
+const version = async() => {
+  console.log(await AppStore.version.fetch('1253802769'))
+}
+
 co(function*() {
-  yield subtitle()
+  yield version()
 })

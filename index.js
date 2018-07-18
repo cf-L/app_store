@@ -8,6 +8,7 @@ const review = require('./lib/review')
 const hint = require('./lib/hint')
 const trends = require('./lib/trends')
 const subtitle = require('./lib/subtitle')
+const version = require('./lib/version_history')
 
 module.exports = {
   topChart,
@@ -17,5 +18,6 @@ module.exports = {
   review,
   hint,
   trends,
-  subtitle
+  subtitle,
+  version
 }
