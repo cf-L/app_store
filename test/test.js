@@ -24,7 +24,7 @@ const search = async() => {
 }
 
 const rating = async() => {
-  const result = await AppStore.rating.fetch('414478124')
+  const result = await AppStore.rating.fetch('cn', '414478124')
   console.log(result)
 }
 
@@ -52,5 +52,5 @@ const version = async() => {
 }
 
 co(function*() {
-  yield version()
+  yield rating()
 })

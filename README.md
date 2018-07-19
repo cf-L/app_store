@@ -59,7 +59,7 @@ AppStore.lookup.fetch(countryCode, appIds)
 ##### rating
 
 ```javascript
-AppStore.rating.fetch(appId)
+AppStore.rating.fetch(countryCode, appId)
 ```
 
 
