@@ -9,6 +9,7 @@ const hint = require('./lib/hint')
 const trends = require('./lib/trends')
 const subtitle = require('./lib/subtitle')
 const version = require('./lib/version_history')
+const priority = require('./lib/priority')
 
 module.exports = {
   topChart,
@@ -19,5 +20,6 @@ module.exports = {
   hint,
   trends,
   subtitle,
-  version
+  version,
+  priority
 }
