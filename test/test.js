@@ -51,6 +51,11 @@ const version = async() => {
   console.log(await AppStore.version.fetch('1253802769'))
 }
 
+const priority = async() => {
+  const result = await AppStore.priority.single(country.frontID, 'video editor')
+  console.log(result)
+}
+
 co(function*() {
-  yield rating()
+  yield priority()
 })
