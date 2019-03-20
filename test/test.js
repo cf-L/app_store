@@ -52,10 +52,10 @@ const version = async() => {
 }
 
 const priority = async() => {
-  const result = await AppStore.priority.single(country.frontID, 'video editor')
+  const result = await AppStore.priority.all(country.frontID, 'video editor')
   console.log(result)
 }
 
 co(function*() {
-  yield search()
+  yield priority()
 })
