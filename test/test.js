@@ -19,7 +19,7 @@ const lookup = async() => {
 }
 
 const search = async() => {
-  const result = await AppStore.search.fetch(country.frontID, 'free music offline')
+  const result = await AppStore.search.rankings(country.frontID, 'video editor', ['1253802769', '1281436203'])
   console.log(result)
 }
 
@@ -57,5 +57,5 @@ const priority = async() => {
 }
 
 co(function*() {
-  yield priority()
+  yield search()
 })
