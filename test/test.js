@@ -57,5 +57,5 @@ const priority = async() => {
 }
 
 co(function*() {
-  yield priority()
+  yield search()
 })
