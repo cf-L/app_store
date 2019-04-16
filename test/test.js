@@ -19,7 +19,7 @@ const lookup = async() => {
 }
 
 const search = async() => {
-  const result = await AppStore.search.possibleGenres(country.frontID, 'video editor', ['1253802769', '1281436203'])
+  const result = await AppStore.search.top10Genre(country.frontID, 'video editor', ['1253802769', '1281436203'])
   console.log(result)
 }
 
